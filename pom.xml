@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TestNGProject</groupId>
-  <artifactId>TestNGProject</artifactId>
+  <groupId>unit_testing_exercise</groupId>
+  <artifactId>unit_testing_exercise</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
  
@@ -22,10 +22,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 		        <version>2.21.0</version>
 		        <configuration>
-		        <suiteXmlFiles>
-   					 <!-- pass testng.xml files as argument from command line -->
-    				<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-				</suiteXmlFiles>
 				</configuration>
 			</plugin>
 			<plugin>
