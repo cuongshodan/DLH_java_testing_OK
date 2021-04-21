@@ -17,5 +17,14 @@ public class MathClass {
         Assert.assertEquals("10 x 10 must be 100", 100, tester.multiply(10, 10));
         
     }
+    
+     @Test
+    public void multiplicationOfNonZeroIntegersShouldNotReturnZero() {
+        MultiplyClass tester = new MultiplyClass(); // MyClass is tested
+
+        // assert statements
+        Assert.assertEquals("10 x 10 must be 100", 100, tester.multiply(10, 10));
+        
+    }
 }
 
