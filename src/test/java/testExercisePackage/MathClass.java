@@ -24,6 +24,7 @@ public class MathClass {
 
         // assert statements
         Assert.assertEquals("10 x 10 must be 100", 100, tester.multiply(10, 10));
+        Assert.assertEquals("10 x 1 must be 10", 10, tester.multiply(10, 1));
         
     }
 }
